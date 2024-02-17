@@ -17,7 +17,7 @@ import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
 
 
-const ENDPOINT = "http://localhost:5000"; 
+const ENDPOINT = "https://frendzone-backend.onrender.com"; 
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
