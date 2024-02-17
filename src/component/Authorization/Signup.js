@@ -125,7 +125,7 @@ const Signup = () => {
               },
             };
             const { data } = await axios.post(
-              "http://localhost:5000/api/user/signup",
+              "https://frendzone-backend.onrender.com/api/user/signup",
               {
                 name,
                 phone,
